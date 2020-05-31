@@ -1,0 +1,136 @@
+#heading{
+    text-align: center;
+    margin: auto;
+    padding: 35px;
+    color: white;
+}
+#navb{
+    background-color:beige !important;
+    font-weight: bold !important;
+    position: sticky; 
+    top: 0;
+    z-index: 300px !important;
+    border: 2px outset black;
+}
+#omenu:hover{
+    background-color: rgb(165, 148, 50) !important;
+    color: white !important;
+}
+.dropbtn {
+    background-color: beige;
+    color:black;
+    padding: 08px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: beige;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color:rgb(165, 148, 50);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:  rgb(165, 148, 50);}
+  #footer{
+    margin-bottom: -20px !important;
+    background-color: rgb(30, 30, 30);
+    color: beige;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    width: 100%;
+    bottom: initial;
+} 
+#footer img{
+    height: 32px;
+    width: 32px;
+    color: white;
+}
+#heading4{
+    text-align: center;
+    color: black;
+    padding: 50px;
+    margin: auto;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+} 
+#heading5{
+    text-align: center;
+    color: black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body{
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-image: url(back.png);
+  background-size: cover;  
+}
+
+
+/* mainwork */
+*{
+  /* border: green 1px solid; */
+}
+table{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+input[type="text"] {
+  background: transparent ;
+  border: white 1px solid;
+  border-radius: 12px;
+  color: white;
+}
+input[type="number"] {
+  background: transparent ;
+  border: white 1px solid;
+  border-radius: 12px;
+  color: white;
+}
+input[type="email"] {
+  background: transparent ;
+  border: white 1px solid;
+  border-radius: 12px;
+  color: white;
+}
+td{
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-align: right;
+}
+button{
+  background-color: transparent;
+  color: white;
+  border: white 1px solid;
+  border-radius: 12px;
+  justify-content: center;
+}
