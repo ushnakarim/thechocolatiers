@@ -32,12 +32,16 @@
     padding: 35px;
     margin: auto;
 }
+.row{
+    justify-content: space-around;
+}
 #types .column{
-    width: 370px;
+    min-width: 300px;
+    max-width : 370px;
     height: 350px;
     border: 10px solid white;
     border-radius: 5px;
-    margin: 35px;
+    /* margin: 35px; */
     background-color: white;
     box-shadow: 7px 7px 7px 7px rgb(233, 231, 231);
     font-weight: bolder;
@@ -60,7 +64,8 @@
     margin: auto;
 } 
 #catag #bars{
-    width: 370px;
+    min-width: 300px;
+    max-width: 370px;
     height: 305px;
     float: left;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -83,7 +88,8 @@
     filter: brightness(150%);
 }
 #catag #truffles{
-    width: 370px;
+    min-width: 300px;
+    max-width: 370px;
     height: 305px;
     float: left;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -106,7 +112,8 @@
     filter: brightness(150%);
 }
 #catag #chocolate_chips{
-    width: 370px;
+    min-width: 300px;
+    max-width: 370px;
     height: 305px;
     float: left;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
